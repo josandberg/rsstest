@@ -31,8 +31,8 @@ export default {
                var el = $(this);
                self.title = el.find('title').text()
                console.log('title      : ' + el.find('title').text());
-               //console.log('link       : ' + el.find('link').text());
-               //console.log('description: ' + el.find('description').text());
+               console.log('link       : ' + el.find('link').text());
+               console.log('description: ' + el.find('description').text());
              });
            }
          });
